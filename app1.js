@@ -49,12 +49,12 @@ const oscillator = audioCtx.createOscillator();
   }, 500);  	
 }
  
-function getRndInteger(min, max) {
-  return Math.floor((Math.random() * (max - min) ) + min) * 1000 ;
+function getInteger(min, max) {
+  return min * 1000 ;
 }
 
 function changecolor() {
-  let i = Math.floor(Math.random() * 4);
+  let i = Math.floor(Math.random() * 3);
   switch(i) {
     case 1:
       tmp.style.backgroundColor = "green"; 
@@ -62,14 +62,11 @@ function changecolor() {
     case 2:
       tmp.style.backgroundColor = "red"; 
       break;
-    case 3:
-      tmp.style.backgroundColor = "blue"; 
-      break;	  
     default:
      tmp.style.backgroundColor = "yellow"; 
   } 
   if ( conti == 0 ) { 
-    setTimeout(changecolor, getRndInteger(2, 5)); 
+    setTimeout(changecolor, getInteger(2, 5)); 
   } else {
     tmp.style.backgroundColor = "orange";
   }
