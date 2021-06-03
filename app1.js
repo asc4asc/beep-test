@@ -55,9 +55,15 @@ function getInteger(min, max) {
 function changecolor() {
   switch(i1) {
     case 1:
-      tmp.style.backgroundColor = "green"; 
+      tmp.style.backgroundColor = "#00FF00";  // green
       break;
     case 2:
+      tmp.style.backgroundColor = "green"; 
+      break;
+    case 3:
+      tmp.style.backgroundColor = "green"; 
+      break;
+    case 4:
       tmp.style.backgroundColor = "yellow"; 
       break;
     default:
@@ -69,7 +75,7 @@ function changecolor() {
   } else {
     tmp.style.backgroundColor = "orange";
   }
-  i1 = i1 + 1 ; if (i1 > 2) { i1 = 0; };	
+  i1 = i1 + 1 ; if (i1 > 4) { i1 = 0; };	
 }
 
 function clickevent() {
