@@ -55,6 +55,7 @@ const oscillator = audioCtx.createOscillator();
   }, 500);  	
 }
  
+// from table https://www.soccerdrills.de/fileadmin/media/artikel/shuttle-run-zeiten-meter.pdf
 function getInteger(min) {
   switch(count) {
     case (140/LEN):
@@ -164,7 +165,7 @@ switch(i) {
       i1 = 4; 		
       conti = 0;
       count = 0;	
-      speed=2000;	
+      speed = 2000;	
       changecolor();
       break; 
     default:
