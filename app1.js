@@ -1,7 +1,10 @@
 "use strict";  
 
 let tmp=document.querySelector("body");
+let out=document.querySelector("clock");
+
 tmp.style.backgroundColor = "lightblue";
+
 
 let i=1;
 let i1=4;
@@ -80,7 +83,7 @@ function changecolor() {
   } else { 
     i1 = i1 - 1 
   }
-  tmp.innerHTML = 'Test:' + i1;
+  out.innerHTML = 'Test:' + i1;
 }
 
 function clickevent() {
