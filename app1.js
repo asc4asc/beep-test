@@ -75,7 +75,11 @@ function changecolor() {
   } else {
     tmp.style.backgroundColor = "orange";
   }
-  i1 = i1 - 1 ; if (i1 < 1) { i1 = 4; };	
+  if ( i1 < 1 ) { 
+    i1 = 4; 
+  } else { 
+    i1 = i1 - 1 
+  }	
 }
 
 function clickevent() {
