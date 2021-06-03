@@ -58,10 +58,11 @@ function changecolor() {
       tmp.style.backgroundColor = "green"; 
       break;
     case 2:
-      tmp.style.backgroundColor = "red"; 
+      tmp.style.backgroundColor = "yellow"; 
       break;
     default:
-     tmp.style.backgroundColor = "yellow"; 
+     tmp.style.backgroundColor = "red"; 
+     beep();	  
   } 
   if ( conti == 0 ) { 
     setTimeout(changecolor, getInteger(2, 5)); 
