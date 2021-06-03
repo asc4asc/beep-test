@@ -11,6 +11,7 @@ let i1 =4;
 let stop=0;
 let conti=0;
 let count=0;
+let speed=2000;
 var elem = document.documentElement;
 
 function openFullscreen() {
@@ -53,7 +54,15 @@ const oscillator = audioCtx.createOscillator();
 }
  
 function getInteger(min) {
-  return min * 1000 ;
+  switch(count) {
+    case 3:
+	speed = 1000;
+	break	  
+    case 6: 
+	speed = 500;
+	break;	  
+    default:
+    return min * speed ;
 }
 
 function changecolor() {
@@ -93,7 +102,8 @@ switch(i) {
      case 1:
       i1 = 4; 		
       conti = 0;
-      count = 0;		
+      count = 0;	
+      speed=2000;	
       changecolor();
       break; 
     default:
