@@ -7,7 +7,7 @@ tmp.style.backgroundColor = "orange";
 
 
 let i=1;
-let i1=4;
+let i1;
 let stop=0;
 let conti=0;
 let count=0;
@@ -91,7 +91,7 @@ function changecolor() {
 function clickevent() {
 switch(i) {
      case 1:
-      i1 = 0; 		
+      i1 = 4; 		
       conti = 0;
       count = 0;		
       changecolor();
