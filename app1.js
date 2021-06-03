@@ -10,6 +10,7 @@ let i=1;
 let i1=4;
 let stop=0;
 let conti=0;
+let count=0;
 var elem = document.documentElement;
 
 function openFullscreen() {
@@ -79,11 +80,12 @@ function changecolor() {
     tmp.style.backgroundColor = "orange";
   }
   if ( i1 < 1 ) { 
-    i1 = 4; 
+    i1 = 4;
+    count = count + 1;	  
   } else { 
     i1 = i1 - 1 
   }
-  out.innerHTML = 'Test:' + i1;
+  out.innerHTML = 'Anzahl:' + count;
 }
 
 function clickevent() {
