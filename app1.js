@@ -6,12 +6,14 @@ let out=document.querySelector("out");
 tmp.style.backgroundColor = "orange";
 
 
-let i=1;
-let i1 =4;
-let stop=0;
-let conti=0;
-let count=0;
-let speed=2000;
+let i = 1;
+let i1 = 4;
+let stop = 0;
+let conti = 0;
+let count = 0;
+let speed = 2000;
+const LEN = 20;
+const STEPS = 5;
 var elem = document.documentElement;
 
 function openFullscreen() {
@@ -55,17 +57,20 @@ const oscillator = audioCtx.createOscillator();
  
 function getInteger(min) {
   switch(count) {
-    case 7:
-	speed = 9000/5; 
+    case (140/LEN):
+	speed = 9000/STEPS; 
 	break	  
-    case 15: 
-	speed = 8000/5;
+    case (300/LEN): 
+	speed = 8000/STEPS;
 	break;	  
     case 23: 
 	speed = 7580/5;
 	break;	  
     case 30: 
 	speed = 7200/5;  
+	break;	  
+     case 247:
+	speed = 3890/5;  
 	break;	  
 // Rest aus Tabelle übernehmen.		  
     default:
