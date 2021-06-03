@@ -61,7 +61,7 @@ function changecolor() {
       tmp.style.backgroundColor = "#008F00"; 
       break;
     case 3:
-      tmp.style.backgroundColor = "#000F00"; 
+      tmp.style.backgroundColor = "#004F00"; 
       break;
     case 4:
       tmp.style.backgroundColor = "#00FF00";  // green		  
