@@ -3,7 +3,7 @@
 let tmp=document.querySelector("body");
 let out=document.querySelector("clock");
 
-tmp.style.backgroundColor = "rust";
+tmp.style.backgroundColor = "#FEC34D";
 
 
 let i=1;
