@@ -107,7 +107,7 @@ function changecolor() {
   } else { 
     i1 = i1 - 1 
   }
-  out.innerHTML = 'Anzahl:' + count;
+  out.innerHTML = 'Anzahl:' + count +' (' +speed +')';
 }
 
 function clickevent() {
