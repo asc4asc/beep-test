@@ -79,7 +79,8 @@ function changecolor() {
     i1 = 4; 
   } else { 
     i1 = i1 - 1 
-  }	
+  }
+  tmp.innerHTML = 'Test:' + i1;
 }
 
 function clickevent() {
