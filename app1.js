@@ -55,18 +55,19 @@ const oscillator = audioCtx.createOscillator();
  
 function getInteger(min) {
   switch(count) {
-    case 3:
-	speed = 1000;
+    case 7:
+	speed = 9000/5; 
 	break	  
-    case 6: 
-	speed = 500;
+    case 15: 
+	speed = 8000/5;
 	break;	  
-    case 9: 
-	speed = 200;
+    case 23: 
+	speed = 7580/5;
 	break;	  
-    case 12: 
-	speed = 50;
+    case 30: 
+	speed = 7200/5;  
 	break;	  
+// Rest aus Tabelle übernehmen.		  
     default:
   }
   return min * speed ;
