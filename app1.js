@@ -67,9 +67,9 @@ function getInteger(min) {
     case 12: 
 	speed = 50;
 	break;	  
-
     default:
-    return min * speed ;
+  }
+  return min * speed ;
 }
 
 function changecolor() {
