@@ -61,6 +61,13 @@ function getInteger(min) {
     case 6: 
 	speed = 500;
 	break;	  
+    case 9: 
+	speed = 200;
+	break;	  
+    case 12: 
+	speed = 50;
+	break;	  
+
     default:
     return min * speed ;
 }
