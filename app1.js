@@ -4,6 +4,7 @@ let tmp=document.querySelector("body");
 tmp.style.backgroundColor = "lightblue";
 
 let i=1;
+let i1=0;
 let stop=0;
 let conti=0;
 var elem = document.documentElement;
@@ -52,7 +53,6 @@ function getInteger(min, max) {
 }
 
 function changecolor() {
-  let i1 = i1 + 1 ; if (i1 > 2) { i1 = 0; };
   switch(i) {
     case 1:
       tmp.style.backgroundColor = "green"; 
@@ -68,6 +68,7 @@ function changecolor() {
   } else {
     tmp.style.backgroundColor = "orange";
   }
+  i1 = i1 + 1 ; if (i1 > 2) { i1 = 0; };	
 }
 
 function clickevent() {
