@@ -4,7 +4,7 @@ let tmp=document.querySelector("body");
 tmp.style.backgroundColor = "lightblue";
 
 let i=1;
-let i1=0;
+let i1=4;
 let stop=0;
 let conti=0;
 var elem = document.documentElement;
@@ -48,14 +48,14 @@ const oscillator = audioCtx.createOscillator();
   }, 500);  	
 }
  
-function getInteger(min, max) {
+function getInteger(min) {
   return min * 1000 ;
 }
 
 function changecolor() {
   switch(i1) {
     case 1:
-      tmp.style.backgroundColor = "#00FF00";  // green
+      tmp.style.backgroundColor = "yellow"; 
       break;
     case 2:
       tmp.style.backgroundColor = "#008F00"; 
@@ -64,18 +64,18 @@ function changecolor() {
       tmp.style.backgroundColor = "#000F00"; 
       break;
     case 4:
-      tmp.style.backgroundColor = "yellow"; 
+      tmp.style.backgroundColor = "#00FF00";  // green		  
       break;
     default:
      tmp.style.backgroundColor = "red"; 
      beep();	  
   } 
   if ( conti == 0 ) { 
-    setTimeout(changecolor, getInteger(2, 5)); 
+    setTimeout(changecolor, getInteger(1)); 
   } else {
     tmp.style.backgroundColor = "orange";
   }
-  i1 = i1 + 1 ; if (i1 > 4) { i1 = 0; };	
+  i1 = i1 . 1 ; if (i1 < 1) { i1 = 4; };	
 }
 
 function clickevent() {
