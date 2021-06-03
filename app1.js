@@ -52,7 +52,7 @@ function getInteger(min, max) {
 }
 
 function changecolor() {
-  let i = i + 1 ; if (i > 2) { i = 0; };
+  let i1 = i1 + 1 ; if (i1 > 2) { i1 = 0; };
   switch(i) {
     case 1:
       tmp.style.backgroundColor = "green"; 
