@@ -63,14 +63,62 @@ function getInteger(min) {
     case (300/LEN): 
 	speed = 8000/STEPS;
 	break;	  
-    case 23: 
-	speed = 7580/5;
+    case (460/LEN): 
+	speed = 7580/STEPS;
 	break;	  
-    case 30: 
-	speed = 7200/5;  
-	break;	  
-     case 247:
-	speed = 3890/5;  
+    case (640/LEN): 
+	speed = 7200/STEPS;  
+	break;	
+    case (820/LEN): 
+	speed = 6860/STEPS;  
+	break;	
+    case (1020/LEN): 
+	speed = 6550/STEPS;  
+	break;	
+    case (1220/LEN): 
+	speed = 6250/STEPS;  
+	break;	
+    case (1440/LEN): 
+	speed = 6000/STEPS;  
+	break;	
+    case (1660/LEN): 
+	speed = 5760/STEPS;  
+	break;	
+    case (1880/LEN): 
+	speed = 5540/STEPS;  
+	break;	
+    case (2120/LEN): 
+	speed = 5330/STEPS;  
+	break;	
+    case (2360/LEN): 
+	speed = 5140/STEPS;  
+	break;	
+    case (2620/LEN): 
+	speed = 4970/STEPS;  
+	break;	
+    case (2880/LEN): 
+	speed = 4800/STEPS;  
+	break;	
+    case (3140/LEN): 
+	speed = 4650/STEPS;  
+	break;	
+    case (3420/LEN): 
+	speed = 4500/STEPS;  
+	break;	
+    case (3700/LEN): 
+	speed = 4630/STEPS;  
+	break;	
+    case (4000/LEN): 
+	speed = 4240/STEPS;  
+	break;	
+    case (4300/LEN): 
+	speed = 4110/STEPS;  
+	break;	
+    case (4620/LEN): 
+	speed = 4000/STEPS;  
+	break;	
+    case (4949/LEN): 
+	speed = 3890/STEPS;  
 	break;	  
 // Rest aus Tabelle übernehmen.		  
     default:
