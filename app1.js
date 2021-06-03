@@ -53,7 +53,7 @@ function getInteger(min, max) {
 }
 
 function changecolor() {
-  switch(i) {
+  switch(i1) {
     case 1:
       tmp.style.backgroundColor = "green"; 
       break;
