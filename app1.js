@@ -91,6 +91,7 @@ function changecolor() {
 function clickevent() {
 switch(i) {
      case 1:
+      i1 = 0; 		
       conti = 0;
       count = 0;		
       changecolor();
