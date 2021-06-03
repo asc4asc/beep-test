@@ -78,7 +78,6 @@ function changecolor() {
     setTimeout(changecolor, getInteger(1)); 
   } else {
     tmp.style.backgroundColor = "orange";
-    count=0;
   }
   if ( i1 < 1 ) { 
     i1 = 4;
@@ -92,7 +91,8 @@ function changecolor() {
 function clickevent() {
 switch(i) {
      case 1:
-      conti = 0;		
+      conti = 0;
+      count = 0;		
       changecolor();
       break; 
     default:
