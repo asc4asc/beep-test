@@ -1,7 +1,7 @@
 "use strict";  
 
 let tmp=document.querySelector("body");
-let out=document.querySelector("clock");
+let out=document.querySelector("out");
 
 tmp.style.backgroundColor = "orange";
 
