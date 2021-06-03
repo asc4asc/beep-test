@@ -3,7 +3,7 @@
 let tmp=document.querySelector("body");
 let out=document.querySelector("clock");
 
-tmp.style.backgroundColor = "lightblue";
+tmp.style.backgroundColor = "rust";
 
 
 let i=1;
@@ -78,6 +78,7 @@ function changecolor() {
     setTimeout(changecolor, getInteger(1)); 
   } else {
     tmp.style.backgroundColor = "orange";
+    count=0;
   }
   if ( i1 < 1 ) { 
     i1 = 4;
