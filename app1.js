@@ -58,13 +58,13 @@ function changecolor() {
       tmp.style.backgroundColor = "yellow"; 
       break;
     case 2:
-      tmp.style.backgroundColor = "#008F00"; 
+      tmp.style.backgroundColor = "green"; 
       break;
     case 3:
-      tmp.style.backgroundColor = "#004F00"; 
+      tmp.style.backgroundColor = "yellowgreen"; 
       break;
     case 4:
-      tmp.style.backgroundColor = "#00FF00";  // green		  
+      tmp.style.backgroundColor = "greenyellow";  		  
       break;
     default:
      tmp.style.backgroundColor = "red"; 
