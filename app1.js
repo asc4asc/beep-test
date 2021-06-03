@@ -3,7 +3,7 @@
 let tmp=document.querySelector("body");
 let out=document.querySelector("clock");
 
-tmp.style.backgroundColor = "#FEC34D";
+tmp.style.backgroundColor = "orange";
 
 
 let i=1;
