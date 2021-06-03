@@ -7,7 +7,7 @@ tmp.style.backgroundColor = "orange";
 
 
 let i=1;
-let i1;
+let i1 =4;
 let stop=0;
 let conti=0;
 let count=0;
