@@ -8,8 +8,6 @@ let stop=0;
 let conti=0;
 var elem = document.documentElement;
 
-// setInterval(changecolor, 3000);
-
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
@@ -54,7 +52,7 @@ function getInteger(min, max) {
 }
 
 function changecolor() {
-  let i = Math.floor(Math.random() * 3);
+  let i = i + 1 ; if (i > 2) { i = 0; };
   switch(i) {
     case 1:
       tmp.style.backgroundColor = "green"; 
@@ -83,7 +81,5 @@ switch(i) {
     }
     i=i+1; if ( i > 1 ) { i = 0; }
 }
-
-// changecolor();
 
 document.body.addEventListener("click",clickevent);
