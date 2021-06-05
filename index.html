@@ -20,8 +20,14 @@
     <h1 class="title">Beep Test</h1>
     <out></out>
   </div>
-  
-  <srcipt src="js/NoSleep.min.js"></script>
+    <srcipt src="js/NoSleep.min.js"></script>
+    <input type="button" id="toggle" value="Wake Lock is disabled" />
+    <script>
+    var noSleep = new NoSleep();
+    noSleep.enable(); // keep the screen on!
+    // noSleep.disable(); // let the screen turn off.
+    </script>  
+    
   <script src="app1.js"></script>  
   <script src="js/main.js"></script>
 </body>
