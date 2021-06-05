@@ -5,6 +5,7 @@ var filesToCache = [
   'css/style.css',
   'app1.js',
   'manifest.json',
+  'js/NoSleep.min.js',
   'js/main.js'
 ];
 
