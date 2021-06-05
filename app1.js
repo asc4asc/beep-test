@@ -15,6 +15,7 @@ let speed = 2000;
 const LEN = 20;
 const STEPS = 5;
 var elem = document.documentElement;
+var noSleep = new NoSleep();
 
 function openFullscreen() {
   if (elem.requestFullscreen) {
