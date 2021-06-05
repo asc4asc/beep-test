@@ -1,5 +1,5 @@
 "use strict";  
-import * as ns from './js/NoSleep.min.js';
+// import * as ns from './js/NoSleep.min.js';
 
 let tmp=document.querySelector("body");
 let out=document.querySelector("out");
