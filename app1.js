@@ -1,10 +1,11 @@
 "use strict";  
+import * as ns from './js/NoSleep.min.js';
 
 let tmp=document.querySelector("body");
 let out=document.querySelector("out");
 
 tmp.style.backgroundColor = "orange";
-var noSleep = new NoSleep();
+var noSleep = new ns.NoSleep();
 
 let i = 1;
 let i1 = 4;
